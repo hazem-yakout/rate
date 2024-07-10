@@ -127,3 +127,68 @@ header span {
   padding: 0 12px 0 0;
   color: white;
 }
+@media (max-width: 600px) {
+  .body {
+    gap: 20px; /* Adjust gap between elements */
+  }
+
+  .input {
+    width: 90%; /* Make input container more flexible */
+    height: auto; /* Adjust height to fit content */
+    padding: 20px; /* Increase padding for better touch experience */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Adjust heading size */
+  }
+
+  .data {
+    width: 100%; /* Make data container full width */
+  }
+
+  .list {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .item {
+    width: 90%; /* Make items flexible */
+  }
+
+  header {
+    padding: 10px 20px; /* Reduce padding */
+    flex-direction: column; /* Stack header content vertically */
+    align-items: flex-start; /* Align items to start */
+  }
+
+  .logo {
+    font-size: 1.2em; /* Adjust logo size */
+  }
+
+  header img {
+    width: 30px; /* Adjust image size */
+    margin-right: 5px; /* Adjust margin */
+  }
+
+  header span {
+    font-size: 0.7em; /* Adjust span size */
+    margin-top: 10px; /* Adjust margin */
+    margin-left: 5px; /* Adjust margin */
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer content vertically */
+    align-items: center; /* Center items */
+    padding: 1em; /* Adjust padding */
+  }
+
+  .footer-title {
+    font-size: 1.1em; /* Adjust title size */
+  }
+
+  .footer .social-icons a {
+    font-size: 1em; /* Adjust icon size */
+    padding: 0 8px 0 0; /* Adjust padding */
+  }
+}
+
